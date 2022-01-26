@@ -18,3 +18,4 @@ Route::get('/','PageController@index')->name('home');
 Route::get('/chi-siamo', 'PageController@about')->name('about');
 
 Route::get('/movie', 'MovieController@index')->name('movie');
+
